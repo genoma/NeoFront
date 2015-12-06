@@ -1,3 +1,5 @@
+" ================ WQ common errors overrides ======================
+
 " From http://blog.sanctum.geek.nz/vim-command-typos/ a way
 " to bind W Q A to the correct commands.
 if has("user_commands")
