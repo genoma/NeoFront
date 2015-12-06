@@ -9,3 +9,4 @@ NeoVim configuration aimed at the frontend developer:
 - True color support and cursor change on iTerm2
 - Modularised settings
 - **FZF** and **The Silver Searcher** support
+- **YouCompleteMe** autocompletion
