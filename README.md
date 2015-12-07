@@ -10,3 +10,11 @@ NeoVim configuration aimed at the frontend developer:
 - Modularised settings
 - **FZF** and **The Silver Searcher** support
 - **YouCompleteMe** autocompletion
+
+# Prerequisites
+
+- [Homebrew](http://brew.sh)
+	- [Neovim](https://github.com/neovim/homebrew-neovim/blob/master/README.md)	
+	- [Neovim Python Client](https://github.com/neovim/python-client)
+	- [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
+- [iTerm2 Beta/Nightly](https://www.iterm2.com/downloads.html)	
