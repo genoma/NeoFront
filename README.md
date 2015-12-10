@@ -23,38 +23,48 @@ NeoVim configuration aimed at the frontend developer:
 
 Download **iTerm 2** from the link above.
 Install [Homebrew](http://brew.sh):
+
 `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 Install **The Silver Searcher** 
+
 `$ brew install the_silver_searcher`
 
 Install Neovim
+
 ```
 $ brew tap neovim/neovim
 $ brew install neovim/neovim/neovim
 ```
 
 If you want the latest development release
+
 `$ brew install --HEAD neovim`
 
 Install Neovim Python client
+
 `$ pip install neovim`
 
 Clone the repo in the `~/.config` folder
+
 `git clone https://github.com/genoma/NeoFront ~/.config/nvim`
 
 Start Neovim and install the plugins
+
 `:PlugInstall`
 
 Upgrade [VimPlug](https://github.com/junegunn/vim-plug)
+
 `:PlugUpgrade`
 
 # Update
 
 To update Neovim development release
+
 `$ brew reinstall neovim --HEAD`
 
 To update the plugins
+
 `:PlugUpdate`
 
 To update the Neovim distribution
