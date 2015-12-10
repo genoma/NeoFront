@@ -1,5 +1,8 @@
 " ================ Sensible/Opinion overrides ======================
 
+" Change mapleader
+let mapleader=","
+
 " Set nohlsearch
 set nohlsearch
 
