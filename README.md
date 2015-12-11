@@ -85,10 +85,29 @@ To update the plugins
 :PlugUpdate
 ```
 
+To update Neovim Python client
+```
+$ pip install neovim --upgrade
+```
+
 To update the Neovim distribution
 ```
 $ cd ~/.config/nvim
 $ git pull
+```
+
+### Pip update suggestion
+
+You should install [pip-tools](https://github.com/nvie/pip-tools)
+
+```
+$ pip install pip-tools
+```
+
+Thank you can update all *Pip* installed plugins
+
+```
+$ pip-review -a
 ```
 
 # Learn to use it
@@ -97,5 +116,3 @@ Vim and Neovim are considered the hardest editors to learn and you should usuall
 
 - [Practical Vim](http://www.amazon.com/Practical-Vim-Second-Speed-Thought-ebook/dp/B018T6ZVPK/ref=mt_kindle?_encoding=UTF8&me=) is considered the Vim bible
 - [Vim Adventures](http://vim-adventures.com/) that should be fun!
-
-
