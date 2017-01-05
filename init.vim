@@ -45,6 +45,7 @@ Plug 'Valloric/YouCompleteMe', { 'do': 'python install.py' }
 
 " Linters
 Plug 'benekastah/neomake'
+" Plug 'scrooloose/syntastic'
 
 " Sensible settings
 Plug 'tpope/vim-sensible'
