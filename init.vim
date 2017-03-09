@@ -17,7 +17,7 @@ Plug 'cakebaker/scss-syntax.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'tpope/vim-haml'
 Plug 'tpope/vim-liquid'
-Plug 'digitaltoad/vim-jade'
+Plug 'digitaltoad/vim-pug'
 
 " Utilities
 Plug 'Lokaltog/vim-easymotion'
@@ -41,14 +41,15 @@ Plug 'tpope/vim-obsession'
 Plug 'nathanaelkane/vim-indent-guides'
 
 " Autocompletion
-Plug 'Valloric/YouCompleteMe', { 'do': 'python install.py' }
+" Plug 'Valloric/YouCompleteMe', { 'do': 'python install.py' }
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " Linters
 Plug 'benekastah/neomake'
 " Plug 'scrooloose/syntastic'
 
 " Sensible settings
-Plug 'tpope/vim-sensible'
+" Plug 'tpope/vim-sensible'
 Plug 'rstacruz/vim-opinion'
 
 " File navigation
@@ -60,7 +61,7 @@ call plug#end()
 " ========================================
 
 " Prepare sensible/opinion overrides
-runtime! plugin/sensible.vim
+" runtime! plugin/sensible.vim
 runtime! plugin/opinion.vim
 
 for fpath in split(globpath('~/.config/nvim/settings/overrides', '*.vim'), '\n')
