@@ -18,6 +18,7 @@ Plug 'hail2u/vim-css3-syntax'
 Plug 'tpope/vim-haml'
 Plug 'tpope/vim-liquid'
 Plug 'digitaltoad/vim-pug'
+Plug 'dNitro/vim-pug-complete', { 'for': ['jade', 'pug'] }
 
 " Utilities
 Plug 'Lokaltog/vim-easymotion'
@@ -55,6 +56,7 @@ Plug 'rstacruz/vim-opinion'
 
 " File navigation
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
+Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 
 call plug#end()
