@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/.config/nvim
+git pull
+nvim -c "PlugUpdate" -c "PlugClean" -c "PlugUpgrade" -c "qa"
