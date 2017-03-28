@@ -40,7 +40,6 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-obsession'
-Plug 'nathanaelkane/vim-indent-guides'
 Plug 'brooth/far.vim'
 
 

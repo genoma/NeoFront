@@ -7,3 +7,4 @@ if has("autocmd")
 endif
 
 let g:neomake_scss_enabled_makers = ['stylelint']
+let g:neomake_javascript_enabled_makers = ['eslint']
