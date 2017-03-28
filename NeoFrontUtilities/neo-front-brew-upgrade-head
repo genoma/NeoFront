@@ -1,0 +1,2 @@
+#!/bin/bash
+brew reinstall neovim --without-jemalloc --HEAD
