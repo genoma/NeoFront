@@ -42,17 +42,17 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-obsession'
 Plug 'brooth/far.vim'
 
-
 " Autocompletion
-" Plug 'Valloric/YouCompleteMe', { 'do': 'python install.py' }
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
+" Deoplete addons
+Plug 'Shougo/context_filetype.vim'
+Plug 'Shougo/neoinclude.vim'
 
 " Linters
 Plug 'benekastah/neomake'
-" Plug 'scrooloose/syntastic'
 
 " Sensible settings
-" Plug 'tpope/vim-sensible'
 Plug 'rstacruz/vim-opinion'
 
 " File navigation
