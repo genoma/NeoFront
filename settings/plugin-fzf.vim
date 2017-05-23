@@ -52,3 +52,4 @@ imap <c-x><c-j> <plug>(fzf-complete-file-ag)
 imap <c-x><c-l> <plug>(fzf-complete-line)
 
 nmap <tab> :Files<CR>
+nmap <leader>b :Buffers<CR>
